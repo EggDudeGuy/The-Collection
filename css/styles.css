@@ -9,14 +9,16 @@ body {
 .links-container {
   display: flex;
   justify-content: space-between;
-  gap: 40px; /* space between columns */
+  gap: 40px;
 }
 
 .link-section {
-  flex: 1; /* makes both sides equal width */
+  flex: 1;
 }
 
 header {
     background-color: #0092ff;
+    padding: 20px;
+    text-align: center;
 }
     

@@ -31,8 +31,9 @@ main {
 }
 
 .link {
-    font-size: 15px;
+    font-size: 20px;
     color: #0068ff;
+    padding: 8px;
 }
 
 header {

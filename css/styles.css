@@ -5,3 +5,13 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; /* space between columns */
+}
+
+.link-section {
+  flex: 1; /* makes both sides equal width */
+}

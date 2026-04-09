@@ -22,3 +22,10 @@ header {
     text-align: center;
 }
     
+#main-header {
+    font-size: 58px;
+}
+
+#subheader {
+    font-size: 25px;
+}

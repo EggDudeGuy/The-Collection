@@ -15,3 +15,8 @@ body {
 .link-section {
   flex: 1; /* makes both sides equal width */
 }
+
+header {
+    background-color: #0092ff;
+}
+    

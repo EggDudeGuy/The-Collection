@@ -6,6 +6,20 @@ body {
     padding: 0;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 .links-container {
   display: flex;
   justify-content: space-between;
@@ -14,6 +28,11 @@ body {
 
 .link-section {
   flex: 1;
+}
+
+.link {
+    font-size: 15px;
+    color: #0068ff;
 }
 
 header {
@@ -28,4 +47,13 @@ header {
 
 #subheader {
     font-size: 25px;
+}
+
+main {
+    color: lightgrey;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
 }
